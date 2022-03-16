@@ -1,0 +1,36 @@
+body {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, #000000, rgb(0, 67, 106), rgb(3, 74, 139),#007da6, #00ade2);    
+
+}
+
+header {
+    margin-bottom: 10vh;
+    padding-top: 2vh;
+    font-weight: 100;
+    font-size: .9rem;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #0a112c;
+
+
+}
+
+#nav {
+    float: right;
+}
+
+#nav ul li {
+    list-style: none;
+    float: left;
+    padding-right: 2vw;
+}
+
+#nav li a {text-decoration: none;  color: #ffffff;}
+#nav li a:hover {color: rgb(0, 99, 248); }
+
+main {    background-image: linear-gradient(to bottom, #000000, rgb(0, 67, 106), rgb(3, 74, 139),#007da6, #00ade2);  
+}
