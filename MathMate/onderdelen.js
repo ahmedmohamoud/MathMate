@@ -49,14 +49,13 @@ function myFunction() {
   }
    
  function myTafel(){ 
-  let table = document.getElementById("tafel1").value;
-  let length = document.getElementById("tafel2").value;
+  let table = document.getElementById("tafel2").value;
+  let length = document.getElementById("tafel1").value;
   let i = 1;
-  let x = "<br>"+i+" * "+table+" = " +(i * table);
-
-
-for(i=1; i <= length; i++);
-document.getElementById("result1").innerHTML = x;
+  let x = ("<br>"+i+" * "+table+" = " +(i * table));
+  
+  for(i=1; i <= length; i++);
+  document.getElementById("result1").innerHTML = x;
 
 
 
