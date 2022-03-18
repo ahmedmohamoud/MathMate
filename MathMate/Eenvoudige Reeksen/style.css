@@ -31,4 +31,17 @@ header {
 #nav li a {text-decoration: none;  color: #ffffff;}
 #nav li a:hover {color: rgb(0, 99, 248); }
 
+#tafels {
+    margin-left: 4vw;
+    background: var(--main-bg2);
+    width: 40vw;
+    height: 50vh;
+    margin-bottom: 5vw;
+    box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+
+
+
+}
 
