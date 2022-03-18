@@ -59,22 +59,6 @@ function myFunction() {
 }
 
 
-
-
-  /*let number = document.getElementById("tafel2").value;
-   let l = document.getElementById("tafel1").value;
-   let x = console.log(`${number} * ${i} = ${result}`);
-   for(let i = 1; i <= l; i++) {
-
-    const result = i * number;
-    document.getElementById("result1").innerHTML = x;
-
-}*/
-
-
-
- 
-
  function VindEven(){
     
     let num = document.getElementById('num').value;
