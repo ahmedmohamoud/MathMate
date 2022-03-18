@@ -52,7 +52,7 @@ function myFunction() {
     let n = document.getElementById('num').value;
     let l = document.getElementById('limit').value;
     let out = "";
-    for (let i = 1; i < l; i++) {
+    for (let i = 1; i <= l; i++) {
         out = out + i + " * " + n + " = " + (i * n )+ "<br/>";
     }
     document.getElementById("result").innerHTML = out;
