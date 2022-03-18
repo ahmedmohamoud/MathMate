@@ -53,7 +53,7 @@ function myFunction() {
     var l = document.getElementById('limit').value;
     var out = "";
     for (var i = 1; i < l; i++) {
-        out = out + i + " * " + n + " = " + i * n + "<br/>";
+        out = out + i + " * " + n + " = " + (i * n )+ "<br/>";
     }
     document.getElementById("result").innerHTML = out;
 }
