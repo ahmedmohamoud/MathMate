@@ -32,7 +32,7 @@ header {
 #nav li a:hover {color: rgb(0, 99, 248); }
 
 :root {
-    --main-bg: rgb(1, 48, 75);
+    --main-bg: rgb(3, 61, 95);
     --main-bg1: rgb(5, 83, 156);
     --main-bg2: rgb(3, 145, 192);
     --main-bg3: rgb(0, 173, 226);
