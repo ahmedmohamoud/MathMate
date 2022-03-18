@@ -31,6 +31,14 @@ header {
 #nav li a {text-decoration: none;  color: #ffffff;}
 #nav li a:hover {color: rgb(0, 99, 248); }
 
+:root {
+    --main-bg: rgb(0, 67, 106);
+    --main-bg1: rgb(3, 74, 139);
+    --main-bg2: rgb(0, 125, 166);
+    --main-bg3: rgb(0, 173, 226);
+} 
+   
+
 #tafels {
     margin-left: 4vw;
     background: var(--main-bg2);
