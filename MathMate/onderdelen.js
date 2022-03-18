@@ -49,10 +49,10 @@ function myFunction() {
   }
    
   function multiply() {
-    var n = document.getElementById('num').value;
-    var l = document.getElementById('limit').value;
-    var out = "";
-    for (var i = 1; i < l; i++) {
+    let n = document.getElementById('num').value;
+    let l = document.getElementById('limit').value;
+    let out = "";
+    for (let i = 1; i < l; i++) {
         out = out + i + " * " + n + " = " + (i * n )+ "<br/>";
     }
     document.getElementById("result").innerHTML = out;
