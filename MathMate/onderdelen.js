@@ -61,11 +61,11 @@ function myFunction() {
 function Machten() {
   let g = document.getElementById('grond').value;
   let e = document.getElementById('expo').value;
-  let res = "";
-  for (let i = 1; i <= e; i++) {
-      res = res + i + " * " + g + " = " + (i ** n )+ "<br/>";
+  
+  for (let i = 0; i <= e; i++) {
+    document.getElementById("result2").innerHTML += g ** i + "<br>" ;
   }
-  document.getElementById("result2").innerHTML = res;
+  
 }
 
 
