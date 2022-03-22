@@ -44,6 +44,10 @@ header {
     --main-bg2: rgb(3, 145, 192);
     --main-bg3: rgb(0, 173, 226);
 } 
+
+#flex1 {
+    display: flex;
+}
    
 
 #tafels {
