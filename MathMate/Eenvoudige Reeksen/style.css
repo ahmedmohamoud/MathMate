@@ -63,3 +63,20 @@ header {
     padding-top: 2vh;
 }
 
+#machts {
+    margin-left: 4vw;
+    background: var(--main-bg);
+    width: 30vw;
+    height: 60vh;
+    margin-bottom: 5vw;
+    box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+
+}
+
+#macht1 {
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+
