@@ -1,3 +1,9 @@
+html {
+    background-image: linear-gradient(to bottom, #000000, rgb(0, 67, 106), rgb(3, 74, 139),#007da6, #00ade2); 
+    height: 100%;   
+
+}
+
 body {
     width: auto;
     height: auto;
