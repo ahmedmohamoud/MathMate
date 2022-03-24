@@ -68,6 +68,26 @@ function Machten() {
   
 }
 
+function Breuken() {
+  let g = document.getElementById('num1').value;
+  
+  
+  for (let i = 1; i <= g; i++) {
+    document.getElementById("result3").innerHTML += "<br>" + "1/" + i + "=" +1 /i;
+  }
+  
+}
+
+function Kwadraten() {
+  let g = document.getElementById('num2').value;
+  
+  
+  for (let i = 1; i <= g; i++) {
+    document.getElementById("result4").innerHTML += "<br>" + Math.pow(i,2);
+  }
+  
+}
+
 
  function VindEven(){
     
