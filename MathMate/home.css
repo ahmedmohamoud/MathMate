@@ -133,7 +133,7 @@ body {
   
   /* 48em = 768px */
   
-  @media (min-width: 600px) {
+  @media (min-width: 48em) {
     .header li {
       float: left;
     }
