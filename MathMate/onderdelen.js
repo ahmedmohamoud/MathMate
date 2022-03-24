@@ -78,6 +78,16 @@ function Breuken() {
   
 }
 
+function Kwadraten() {
+  let g = document.getElementById('num2').value;
+  
+  
+  for (let i = 1; i <= g; i++) {
+    document.getElementById("result4").innerHTML += "<br>" + Math.pow(i,2);
+  }
+  
+}
+
 
  function VindEven(){
     
