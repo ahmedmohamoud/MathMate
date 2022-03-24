@@ -164,7 +164,7 @@ a {
 
 #tafels {
     margin-left: 4vw;
-    background: var(--main-bg);
+    background: var(--main-bg2);
     width: 25vw;
     height: 60vh;
     margin-bottom: 5vw;
@@ -181,7 +181,7 @@ a {
 
 #machts {
     margin-left: 4vw;
-    background: var(--main-bg);
+    background: var(--main-bg2);
     width: 25vw;
     height: 60vh;
     margin-bottom: 5vw;
