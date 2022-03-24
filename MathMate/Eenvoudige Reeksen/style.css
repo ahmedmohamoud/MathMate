@@ -161,8 +161,13 @@ a {
 
 #flex1 {
     display: flex;
+    padding-left: 20vw;
+
 }
-   
+#flex2 {
+    display: flex;
+    padding-left: 20vw;
+}
 
 #tafels {
     margin-left: 4vw;
@@ -198,3 +203,36 @@ a {
     padding-top: 2vh;
 }
 
+#breuk {
+    margin-left: 4vw;
+    background: var(--main-bg1);
+    width: 25vw;
+    height: 60vh;
+    margin-bottom: 5vw;
+    box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+
+}
+
+#breuk1 {
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+
+#kwad {
+    margin-left: 4vw;
+    background: var(--main-bg1);
+    width: 25vw;
+    height: 60vh;
+    margin-bottom: 5vw;
+    box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 25px 30px 1px rgba(0,0,0,1);
+
+}
+
+#kwad1 {
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
