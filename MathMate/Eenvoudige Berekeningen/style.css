@@ -19,6 +19,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 3;
+    
   }
   
   .header ul {
@@ -143,6 +144,7 @@ a {
 #main-1 {
     margin-left: 5vw;
     text-align: center;
+    padding-top: 25vh;
     
     
 }
