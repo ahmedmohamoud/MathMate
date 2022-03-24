@@ -45,10 +45,9 @@ body {
     text-decoration: none;
   }
   
-  .header li a:hover,
-  .header .menu-btn:hover {
-    background-color: #f4f4f4;
-  }
+  .header li a:hover
+ {
+    color: rgb(0, 99, 248);  }
   
   .header .logo {
     display: block;
@@ -134,7 +133,7 @@ body {
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media (min-width: 600px) {
     .header li {
       float: left;
     }
