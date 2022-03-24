@@ -21,7 +21,7 @@ body {
   }
 
   a {
-    color: #000;
+    color: rgb(77, 77, 77);
   }
   
   /* header */
@@ -79,7 +79,7 @@ body {
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: rgb(156, 156, 156);
     display: block;
     height: 2px;
     position: relative;
@@ -89,7 +89,7 @@ body {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: rgb(156, 156, 156);
     content: '';
     display: block;
     height: 100%;
@@ -140,7 +140,7 @@ body {
       float: left;
     }
     .header li a {
-      padding: 20px 30px;
+      padding: 10px 20px;
     }
     .header .menu {
       clear: none;
