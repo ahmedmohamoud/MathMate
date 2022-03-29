@@ -15,21 +15,27 @@
 
 
 <body>
-  <header class="header">
-    <img src="/MathMate/images/logoMathMate.png" alt="logo" width="330vw">
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li><a href="/MathMate/Homepage.html">Home</a></li>
-      <li><a href="">Presentatie</a></li>
-      <li><a href="/MathMate/Eenvoudige Berekeningen/index.html">Eenvoudige Berekeningen</a></li>
-      <li><a href="/MathMate/Eenvoudige Reeksen/index.html">Eenvoudige Reeksen</a></li>
-      <li><a href="">Complexe Reeksen</a></li>
-      <li><a href="">Omrekenen</a></li>
-            <li><a href="">Over Ons</a></li>
-    </ul>
+  <header class="header"> 
+    <div class="topnav" id="myTopnav">
+      <img src="/MathMate/images/logoMathMate.png" alt="logoMathMate" height="140px" width="350px">
+  <a href="/MathMate/Homepage.html" class="active">Home</a>
+  <a href="#news">Presentatie</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Berekeningen 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/MathMate/Eenvoudige Berekeningen/index.html">Eenvoudige Berekeningen</a>
+      <a href="/MathMate/Eenvoudige Reeksen/index.html">Eenvoudige Reeksen</a>
+      <a href="#">Complexe Reeksen</a>
+    </div>
+  </div> 
+  <a href="#about">Over ons</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+   
   </header>
-
       <main id="main-1">
         <section id="flex1">
           <section id="tafels">
