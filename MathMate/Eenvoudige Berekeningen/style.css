@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom, #000000, rgb(0, 67, 106), rgb(3, 74, 139),#007da6, #00ade2);    
 }
-
+/*  nav  */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -109,7 +109,7 @@ body {
     text-align: left;
   }
 }
-  
+  /*  nav  */
   
   
  
