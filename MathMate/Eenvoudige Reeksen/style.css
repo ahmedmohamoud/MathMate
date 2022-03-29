@@ -17,7 +17,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(5, 16, 53);
 }
 
 .topnav a {
@@ -74,7 +74,7 @@ body {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: rgb(4, 2, 141);
   color: white;
 }
 
