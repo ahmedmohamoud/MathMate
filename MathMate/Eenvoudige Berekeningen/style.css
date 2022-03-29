@@ -93,6 +93,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .logo {display: none;}
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
