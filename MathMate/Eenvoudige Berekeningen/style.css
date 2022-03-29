@@ -6,11 +6,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom, #000000, rgb(0, 67, 106), rgb(3, 74, 139),#007da6, #00ade2);    
 }
+.logo {
+  float: right;
+}
+
 /*  nav  */
 .topnav {
   overflow: hidden;
-  background-color: #333;
-}
+  background-color: rgb(5, 16, 53);}
 
 .topnav a {
   float: left;
@@ -66,7 +69,7 @@ body {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: rgb(4, 2, 141);
   color: white;
 }
 
