@@ -16,6 +16,9 @@ body {
 .logo {
   float: right;
 }
+:root {
+  --main-bg: linear-gradient(0deg, rgba(47, 25, 247, 0) 0%, rgb(3, 3, 53) 100%);
+}
 
 /*  nav  */
 .topnav {
@@ -125,34 +128,9 @@ body {
 
 
 
-:root {
-    --main-bg: linear-gradient(0deg, rgba(47, 25, 247, 0) 0%, rgb(3, 3, 53) 100%);
-  }
+
 
  
   
   
 
-/*header {
-    margin-bottom: 10vh;
-    font-size: .9rem;
-    padding-top: 2vh;
-    font-family: 'Source Code Pro', monospace;
-    background: linear-gradient(0deg, rgba(22,21,22,0) 0%, rgba(8,14,163,1) 100%);
-    background-color: #0a112c;
-
-}
-
-#nav {
-    float: right;
-    
-}
-
-#nav ul li {
-    list-style: none;
-    float: left;
-    padding-right: 2vw;
-}
-
-#nav li a {text-decoration: none;  color: #ffffff;}
-#nav li a:hover {color: rgb(0, 99, 248); }*/
