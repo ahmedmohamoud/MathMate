@@ -103,6 +103,10 @@ display: block;
 }
 
 }
+/*responsive main */
+@media screen and (max-width: 600px) {
+
+}
 
 @media screen and (max-width: 600px) {
 .logo {display: none;}
