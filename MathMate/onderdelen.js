@@ -47,6 +47,18 @@ function myFunction() {
     let x = y % z;
     document.getElementById("demo6").innerHTML = x;
   }
+
+  function VindEven(){
+    
+    let num = document.getElementById('num').value;
+
+    
+    if ( num % 2 == 0) {
+        document.getElementById('result').innerHTML = num + ' is een Even nummer';
+    }else{
+        document.getElementById('result').innerHTML = num + ' is een Oneven nummmer';
+    }
+}     
    
   function multiply() {
     let n = document.getElementById('num').value;
@@ -150,14 +162,4 @@ function Priemgetallen(){
 
 }
 
- function VindEven(){
-    
-    let num = document.getElementById('num').value;
-
-    
-    if ( num % 2 == 0) {
-        document.getElementById('result').innerHTML = num + ' is een Even nummer';
-    }else{
-        document.getElementById('result').innerHTML = num + ' is een Oneven nummmer';
-    }
-}     
+ 
