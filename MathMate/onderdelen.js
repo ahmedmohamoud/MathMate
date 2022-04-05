@@ -89,15 +89,29 @@ function Kwadraten() {
 }
 
 function Fibonacci() {  
-let n1 = 0,  n2 = 1, next_num, i;  
-let num = document.getElementById('num1').value;  
-for ( i = 1; i >= num; i++)  
-{  document.getElementById("result5").innerHTML +=" <br> " +  n1; 
-    next_num = n1 + n2; 
-      
-    n1 = n2; 
-    n2 = next_num;
-}  
+  let num = parseInt(document.getElementById('num1').value);
+
+  let n1 = 1;
+
+  let n2 = 0;
+
+  nextTerm=0;
+
+
+
+  while (num >=  0){
+
+      nextTerm= n1;
+
+      n1 = n1+n2;
+
+      n2 = nextTerm;
+
+      document.getElementById('result5').innerHTML += (n2)+"<br>";
+
+      num--;
+
+  }
 }
 
 
