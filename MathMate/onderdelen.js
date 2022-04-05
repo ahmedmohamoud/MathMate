@@ -128,7 +128,7 @@ function Fibonacci() {
 
 function Priemgetallen(){
 
-  var num = document.getElementById('num-priem').value;
+  let num = document.getElementById('num-priem').value;
 
 
 
