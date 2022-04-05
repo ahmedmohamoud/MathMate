@@ -116,7 +116,7 @@ function Fibonacci() {
 
 function Priemgetallen(){
 
-  var num = document.getElementById('num').value;
+  var num = document.getElementById('num-priem').value;
 
 
 
@@ -140,7 +140,7 @@ function Priemgetallen(){
 
           let answer = i + "<br>";
 
-          document.getElementById('answer14').innerHTML += answer;
+          document.getElementById('result6').innerHTML += answer;
 
           console.log(answer);
 
