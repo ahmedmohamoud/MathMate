@@ -176,7 +176,7 @@ function Collatz(){
 
           let answer = num / 2;
 
-          document.getElementById('result6').innerHTML += num+"/2="+answer+"<br>";
+          document.getElementById('result7').innerHTML += num+"/2="+answer+"<br>";
 
           num = parseInt(num/2);
 
@@ -184,7 +184,7 @@ function Collatz(){
 
           let answer1 = num * 3 + 1 ;
 
-          document.getElementById('result6').innerHTML += num+"*3+1="+answer1+"<br>";
+          document.getElementById('result7').innerHTML += num+"*3+1="+answer1+"<br>";
 
           num = (num * 3) + 1;
 
