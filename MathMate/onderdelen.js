@@ -3,7 +3,7 @@ function myFunction() {
     let y = document.getElementById("txt1").value;
     let z = document.getElementById("txt2").value;
     let x = +y + +z;
-    document.getElementById("demo").innerHTML = x;
+    document.getElementById("demo0").innerHTML = x;
   }
 
   function myFunction2() {
