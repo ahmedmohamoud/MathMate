@@ -37,26 +37,35 @@
  </header>
 
 
-<main>
+<main class="contact">
     <div class="container">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <form action="#">
+          <label for="vnaam">Voornaam</label>
+          <input type="text" id="fname" name="firstname" placeholder=" Naam..">
       
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="anaam">Achternaam</label>
+          <input type="text" id="lname" name="lastname" placeholder="Naam..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="Email" placeholder="Email..">
       
-          <label for="country">Country</label>
+          <label for="country">Land</label>
           <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
+            <option value="australia">Nederland</option>
+            <option value="België">België</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="Verenigd Koninkrijk">Verenigd Koninkrijk</option>
             <option value="usa">USA</option>
+            <option value="australia">Australië</option>
+           
+            
           </select>
+
       
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="subject"></label>
+          <textarea id="subject" name="subject" placeholder="Laat hier uw boodschap achter.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input type="submit" value="Verstuur">
         </form>
       </div>
 </main>
