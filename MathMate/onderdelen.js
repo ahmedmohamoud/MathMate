@@ -1,5 +1,5 @@
 
-function myFunction() {
+function myFunction1() {
     let y = document.getElementById("txt1").value;
     let z = document.getElementById("txt2").value;
     let x = +y + +z;
