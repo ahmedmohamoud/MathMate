@@ -104,6 +104,27 @@ body {
 
 }
 
+h1{
+  color: lightskyblue;
+  float: left;
+  position: relative;
+  left: 560px;
+  top: 30px;
+}
+
+h4{
+  color: lightskyblue;
+  position: relative;
+  top: 120px;
+}
+
+.pic {
+  position: relative;
+  width: 350px;
+  left: 200px;
+  top: 140px;
+}
+
 @media screen and (max-width: 600px) {
   .logo {display: none;}
  .topnav a:not(:first-child), .dropdown .dropbtn {
